@@ -7,8 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1><center>Hii</center></h1>
+<h1> YourFavColor </h1>
 <h2>Hello</h2>
-<h1>${displayName}</h1>
+<h1>${displaycolorName}</h1>
 </body>
 </html>

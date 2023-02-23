@@ -11,9 +11,9 @@ public class Technologgy {
 	@RequestMapping("/hello")
 	public String display(HttpServletRequest req)
 	{
-		String Colorname=req.getParameter("Colorname");
+		String name=req.getParameter("Colorname");
 		HttpSession session = req.getSession();
-session.setAttribute("displaycolorName",Colorname );
+session.setAttribute("displaycolorName",name );
 		
 		return "NewFile.jsp";
 	}
